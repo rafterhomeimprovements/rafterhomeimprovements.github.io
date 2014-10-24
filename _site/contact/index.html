@@ -1,44 +1,84 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rafter Home Improvements</title>
-    <meta name="viewport" content="width=device-width">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rafter Home Improvements">
     <link rel="canonical" href="/contact/">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/foundation.css">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 
+	<!-- If you are using the gem version, you need this only -->
+	<!--link rel="stylesheet" href="/css/app.css"-->
+
+	<script src="/js/vendor/modernizr.js"></script>
 </head>
 
 
     <body>
 
     <header>
-  <ul>
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/about/">About Us</a></li>
-    <li><a href="/contact/">Contact</a></li>
-  </ul>
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/index.html">Rafter Home Improvements</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+  
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+  
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li><a href="/about/">About Us</a></li>
+        <li><a href="/gallery/">Gallery</a></li>
+      </ul>
+    </section>
+  </nav>
 </header>
 
 
-    <div class="page-content">
-      <div class="wrap">
-      <div>
-	<h1>Contact Us</h1>
-</div>
-      </div>
-    </div>
+    
+      	<h1>Contact</h1>
 
     <footer>
 
 </footer>
 
+
+    <script src="js/vendor/jquery.js"></script>
+  	<script src="js/foundation.min.js"></script>
+  	<script>
+    	$(document).foundation();
+  	</script>
+
+    <!-- Slick -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.photo-slider').slick({
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              speed: 300,
+              dots: true,
+            });
+        });
+    </script>
 
     </body>
 </html>
