@@ -57,11 +57,17 @@
       <p>This is the home page for Rafter Home Improvements</p>
 
       <div class="row">
-	      <div class="photo-slider small-4 small-centered column">
-	      	<div><p>First</p></div>
-	      	<div><p>Second</p></div>
-	      	<div><p>Third</p></div>
+	      <div class="photo-slider small-8 small-centered column">
+	      	<div class="panel"><p>First</p></div>
+	      	<div class="panel"><p>Second</p></div>
+	      	<div class="panel"><p>Third</p></div>
 	      </div>
+  	  </div>
+
+  	  <div class="row">
+  	  	<div class="panel small-4 small-centered column">
+  	  		<p>Contact Us to get a Free Quote!</p>
+  	  	</div>
   	  </div>
 
 
@@ -79,17 +85,8 @@
     <!-- Slick -->
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.photo-slider').slick({
-              infinite: true,
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              speed: 300,
-              dots: true,
-            });
-        });
-    </script>
-
+    <!-- Custom slick script -->
+    <script type="text/javascript" src="js/slider.js"></script>
+    
     </body>
 </html>
