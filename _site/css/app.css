@@ -1,3 +1,21 @@
+body {
+	background-color: rgb(197,239,247);
+}
+
+.panel {
+	background-color: rgb(51,110,123);
+	border-radius: 10px;
+}
+
+.top-bar {
+	background-color: rgb(51,110,123);
+	color : rgb(51,110,123);
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: rgb(51,110,123);
+}
+
 .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -12,6 +30,7 @@
 
 .img-center {
 	border: none;
+	border-radius: 10px;
     display: block;
     margin: 0 auto;
 }
