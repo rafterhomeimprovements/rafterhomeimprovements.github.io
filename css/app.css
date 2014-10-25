@@ -5,3 +5,13 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.slick-dots {
+	margin-left: 0;
+}
+
+.img-center {
+	border: none;
+    display: block;
+    margin: 0 auto;
+}
