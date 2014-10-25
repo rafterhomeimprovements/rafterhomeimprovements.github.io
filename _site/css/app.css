@@ -7,6 +7,17 @@ body {
 	border-radius: 10px;
 }
 
+.panel p {
+	color: white;
+}
+
+.button {
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: rgb(51,110,123);
+	color: white;
+}
+
 .top-bar {
 	background-color: rgb(51,110,123);
 	color : rgb(51,110,123);
@@ -33,4 +44,8 @@ body {
 	border-radius: 10px;
     display: block;
     margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: rgb(51,110,123);
 }
