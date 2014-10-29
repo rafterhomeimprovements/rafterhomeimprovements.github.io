@@ -1,9 +1,19 @@
 body {
-	background-color: rgb(197,239,247);
+	/*background-color: rgb(255,255,255);*/
+	background-image: url("/img/background.JPG");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
+
+p, h1{
+	color: rgb(0,0,0);
+}
+
+
 .panel {
-	background-color: rgb(51,110,123);
+	background-color: rgba(0,0,0,0.75);
+	border-color: rgba(0,0,0,0.75);
 	border-radius: 10px;
 }
 
@@ -14,17 +24,17 @@ body {
 .button {
 	margin: 0 auto;
 	border-radius: 5px;
-	background-color: rgb(51,110,123);
+	background-color: rgba(0,0,0,0.75);
 	color: white;
 }
 
 .top-bar {
-	background-color: rgb(51,110,123);
-	color : rgb(51,110,123);
+	background-color: rgba(0,0,0,0.75);
+	color : rgb(0,0,0);
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-	background-color: rgb(51,110,123);
+	background-color: rgba(0,0,0,0.75);
 }
 
 .rotate90 {
@@ -47,5 +57,5 @@ body {
 }
 
 .slick-prev:before, .slick-next:before {
-	color: rgb(51,110,123);
+	color: rgb(0,0,0);
 }
