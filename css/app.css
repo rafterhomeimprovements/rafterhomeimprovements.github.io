@@ -1,8 +1,7 @@
 body {
-	/*background-color: rgb(255,255,255);*/
-	background-image: url("/img/HPIM1899.JPG");
-	background-color: rgb(0,0,0);
-	background-repeat: no-repeat;
+	background-color: rgb(255,255,255);
+/*	background-image: url("/img/HPIM1899.JPG");
+*/	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
@@ -11,10 +10,9 @@ p, h1{
 	color: rgb(0,0,0);
 }
 
-
 .panel {
-	background-color: rgba(0,0,0,0.75);
-	border-color: rgba(0,0,0,0.75);
+	background-color: rgba(0,0,0,1);
+	border-color: rgba(0,0,0,1);
 	border-radius: 10px;
 }
 
@@ -25,14 +23,18 @@ p, h1{
 .button {
 	margin: 0 auto;
 	border-radius: 5px;
-	background-color: rgba(0,0,0,0.75);
+	background-color: rgba(0,0,0,1);
 	color: white;
 }
 
 .top-bar {
 	background-color: rgb(0,0,0);
-	opacity: 0.75;
-	color : rgb(0,0,0);
+/*	opacity: 0.75;
+*/	color : rgb(0,0,0);
+}
+
+.logo {
+	padding: 10px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
