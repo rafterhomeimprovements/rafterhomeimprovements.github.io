@@ -1,0 +1,99 @@
+---
+---
+
+/* VARIABLES */
+$logo-color: rgb(67,84,160);
+$primary-color: rgb(170,182,236);
+$secondary-color: rgb(67,84,160);
+$panel-color: $secondary-color; /*rgb(46,57,109);*/
+
+/* CSS */
+
+body {
+	background-color: $primary-color;
+/*	background-image: url("/img/HPIM1899.JPG");
+*/	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+p, h1{
+	color: $secondary-color;
+}
+
+.panel {
+	background-color: $panel-color;
+	border-color: $panel-color;
+	border-radius: 10px;
+}
+
+.panel p {
+	color: $primary-color;
+}
+
+.button {
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: $panel-color;
+	color: $primary-color;
+}
+
+.button:hover {
+	color: $panel-color;
+	background-color: $primary-color;
+}
+
+.logo {
+	padding: 10px;
+}
+
+.top-bar {
+	color : $secondary-color;
+	background-color: $primary-color;
+
+}
+
+.top-bar .name h1 a {
+	color: $secondary-color;
+	font-weight: bold;
+}
+
+.top-bar .name h1 a:hover {
+	color: $primary-color;
+	background-color: $secondary-color;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: $primary-color;
+	color: $secondary-color;
+	font-weight: bold;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: $logo-color;
+	color: $primary-color;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.slick-dots {
+	margin-left: 0;
+}
+
+.img-center {
+	border: none;
+	border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: $secondary-color;
+}
