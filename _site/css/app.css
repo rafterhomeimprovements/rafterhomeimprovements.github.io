@@ -2,12 +2,19 @@
 /*rgb(46,57,109);*/
 /* CSS */
 body {
-  background-color: #aab6ec;
+  background-color: white;
   background-repeat: no-repeat;
   background-size: 100%; }
 
-p, h1 {
+p, h1, li, a {
+  font-family: "Lato", sans-serif; }
+
+p {
   color: #4354a0; }
+
+h1 {
+  color: #4354a0;
+  font-weight: 300; }
 
 .panel {
   background-color: #4354a0;
@@ -15,41 +22,45 @@ p, h1 {
   border-radius: 10px; }
 
 .panel p {
-  color: #aab6ec; }
+  color: white; }
 
 .button {
   margin: 0 auto;
   border-radius: 5px;
   background-color: #4354a0;
-  color: #aab6ec; }
+  color: white; }
 
 .button:hover {
   color: #4354a0;
-  background-color: #aab6ec; }
+  background-color: white; }
 
 .logo {
   padding: 10px; }
 
 .top-bar {
   color: #4354a0;
-  background-color: #aab6ec; }
+  background-color: white; }
 
 .top-bar .name h1 a {
   color: #4354a0;
-  font-weight: bold; }
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-size: 2em; }
 
 .top-bar .name h1 a:hover {
-  color: #aab6ec;
+  color: white;
   background-color: #4354a0; }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: #aab6ec;
+  background-color: white;
   color: #4354a0;
-  font-weight: bold; }
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em; }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: #4354a0;
-  color: #aab6ec; }
+  color: white; }
 
 .rotate90 {
   -webkit-transform: rotate(90deg);
@@ -66,7 +77,8 @@ p, h1 {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  width: 100%; }
+  /*    width: 100%;
+  */ }
 
 .slick-prev:before, .slick-next:before {
   color: #4354a0; }
