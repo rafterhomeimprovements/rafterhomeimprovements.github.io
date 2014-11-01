@@ -12,6 +12,7 @@ $(document).ready(function(){
       		breakpoint:600,
       		settings: {
       			arrows: false,
+            slidesToShow: 1
       		}
       	}
       ]
