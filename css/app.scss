@@ -136,11 +136,23 @@ $nav-bar-main-font-size: 2em;
 
 .img-center {
 	border: none;
-	//border-radius: 10px;
     display: block;
     margin: 0 auto;
-/*    width: 100%;
-*/}
+}
+
+.thumbnail {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.test {
+	display: inline-block;	
+	overflow: hidden;
+	height: 100px;
+	width: 150px;
+}
 
 .slick-prev:before, .slick-next:before {
 	color: $secondary-color;
