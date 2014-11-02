@@ -103,9 +103,10 @@ a:hover {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  border-radius: 3px; }
 
-.test {
+.gallery-grid {
   display: inline-block;
   overflow: hidden;
   height: 100px;

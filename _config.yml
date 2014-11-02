@@ -6,3 +6,8 @@ baseurl: ""
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#Sass settings
+sass:
+sass_dir: css
+style: :compressed
