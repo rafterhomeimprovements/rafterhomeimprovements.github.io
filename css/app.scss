@@ -5,6 +5,7 @@
 $logo-color: rgb(67,84,160);
 $primary-color: rgb(255,255,255);//rgb(170,182,236);
 $secondary-color: rgb(67,84,160);
+$link-color: rgb(123,143,236);
 $panel-color: $secondary-color; /*rgb(46,57,109);*/
 $font: 'Lato', sans-serif;
 
@@ -30,7 +31,7 @@ h1 {
 }
 
 a {
-	color: gray;
+	color: $link-color;
 }
 
 a:hover {
@@ -40,7 +41,6 @@ a:hover {
 .panel {
 	background-color: $panel-color;
 	border-color: $panel-color;
-	//border-radius: 10px;
 }
 
 .panel p {
