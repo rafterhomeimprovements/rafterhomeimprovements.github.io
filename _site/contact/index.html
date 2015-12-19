@@ -57,12 +57,45 @@
 
 
     
-                  <h1 class="text-center">Contact</h1>
-            <div class="panel text-center">
-            	<p class="info-text">Contact us to get a free quote!</p>
-				<p class="info-text">Email: <a href="mailto:Rafterhomeimp@gmail.com">Rafterhomeimp@gmail.com</a></p>
-				<p class="info-text">Phone: 613-601-1241</p>
-			</div>
+      <h1 class="text-center">Contact</h1>
+<div class="panel">
+  <div class="text-center">
+  	<p class="info-text">Contact us to get a free quote!</p>
+  	<p class="info-text">Email: <a href="mailto:Rafterhomeimp@gmail.com">Rafterhomeimp@gmail.com</a></p>
+  	<p class="info-text">Phone: <a href="tel:613-601-1241">613-601-1241</a></p>
+  </div>
+
+  <form action="mailto:Rafterhomeimp@gmail.com?subject=RHI Quote Request" method="post" enctype="text/plain">
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Name
+          <input type="text" name="name"/>
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Phone Number
+          <input type="tel" name="phone"/>
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Project Description
+          <textarea name="description" placeholder="A brief description of your desired renovation."></textarea>
+        </label>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <input type="submit" value="Request Quote" class="button secondary">
+      </div>
+    </div>
+  </form>
+
+</div>
 
 
     <footer>
