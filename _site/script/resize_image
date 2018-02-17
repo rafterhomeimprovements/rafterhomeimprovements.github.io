@@ -1,0 +1,10 @@
+#usr/bin/sh
+
+echo "Resizing for ${1}"
+
+magick "img/originals/${1}" -resize '600' "img/gallery600/${1}"
+magick "img/originals/${1}" -resize '150' "img/thumbnail/${1}"
+
+echo "Images resized. Paste the following line to render that image in the HTML"
+echo "<li class=\"gallery-grid\"><a href=\"/img/gallery600/${1}\" data-lightbox=\"gallery\" data-title=\"\"><img class=\"thumbnail\" src=\"/img/thumbnail/${1}\"/></a></li>"
+
